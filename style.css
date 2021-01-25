@@ -1,0 +1,10 @@
+body {
+
+    background-image: url("background.jpg");
+  }
+
+.jumbotron {
+    background-image: url("title.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+}
