@@ -130,11 +130,13 @@ function buildCharts(sample) {
     var wfreq = metaArray[0].wfreq;
  
     // 4. Create the trace for the gauge chart.
-        
+    
+    title = '<b>' + "Belly Button Washing Frequency" + '</b>' + '<br>' + "Scrubs per Week"
+
     var gaugeData = [{
       domain: {x:[0,1], y: [0,1]},
       value: wfreq,
-      title: "Scrubs per Week",
+      title: title,
       type: "indicator", 
       mode: "gauge+number",
       gauge: {
